@@ -1,6 +1,7 @@
 ############################# main : var #######################################
 
 variable "env" { type = string }
+variable "aws_region" { type = string }
 variable "project" { type = string }
 variable "default_tags" { type = map(string) }
 
