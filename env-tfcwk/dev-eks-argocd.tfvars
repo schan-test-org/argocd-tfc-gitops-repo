@@ -18,7 +18,7 @@ tfc_wk = "dev-eks-tfc"
 ########################################
 # etc setting
 ########################################
-eks_cluster_name       = "devtest-eks"
+eks_cluster_name       = "test-deveks"
 
 ########################################
 # helm
