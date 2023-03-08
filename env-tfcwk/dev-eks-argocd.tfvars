@@ -13,19 +13,20 @@ default_tags = {
 # workspace setting
 ########################################
 tfc_org = "schan-test"
-tfc_wk = "dev-eks-tfc"
+tfc_wk = "1-dev-eks-tfc"
 
 ########################################
 # etc setting
 ########################################
-eks_cluster_name       = "test-deveks"
+eks_cluster_name       = "deveks-test"
 
 ########################################
 # helm
 ########################################
 helm_release_name  = "argocd"
 helm_chart_name    = "argo-cd"
-helm_chart_version = "5.19.11"
+helm_chart_version = "5.24.1"
+# helm_chart_version = "5.19.11"
 # helm_chart_version  = "4.10.9"
 helm_repository_url = "https://argoproj.github.io/argo-helm"
 # helm_repository_url = "https://aws.github.io/eks-charts"
